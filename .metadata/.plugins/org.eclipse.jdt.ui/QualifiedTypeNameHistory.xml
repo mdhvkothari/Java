@@ -3,5 +3,13 @@
 <fullyQualifiedTypeName name="Things"/>
 <fullyQualifiedTypeName name="Person"/>
 <fullyQualifiedTypeName name="Frog"/>
+<fullyQualifiedTypeName name="Ocean.fish"/>
+<fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+<fullyQualifiedTypeName name="Ocean.Output"/>
+<fullyQualifiedTypeName name="Info"/>
+<fullyQualifiedTypeName name="Human"/>
+<fullyQualifiedTypeName name="Plant"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Camera"/>
+<fullyQualifiedTypeName name="Machine"/>
 </qualifiedTypeNameHistroy>
