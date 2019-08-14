@@ -13,5 +13,10 @@
     "location": "D:\\java\\Getter\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\Getter\\src\u0027. Skipped."
+  },
+  "D:\\java\\Setter\\src": {
+    "location": "D:\\java\\Setter\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Setter\\src\u0027. Skipped."
   }
 }

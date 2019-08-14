@@ -2,5 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="Things"/>
 <fullyQualifiedTypeName name="Person"/>
+<fullyQualifiedTypeName name="Frog"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

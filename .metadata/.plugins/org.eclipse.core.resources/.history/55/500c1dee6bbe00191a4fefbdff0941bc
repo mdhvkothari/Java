@@ -1,0 +1,13 @@
+package Ocean;
+
+class Output{
+	return "Come form Ocean package class Output ";
+}
+
+
+public class fish {
+	public static void main(String[] args) {
+		
+	}
+
+}

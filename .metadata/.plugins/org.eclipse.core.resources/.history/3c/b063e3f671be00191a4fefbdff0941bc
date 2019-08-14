@@ -1,0 +1,9 @@
+
+public class Human {
+
+		public void person(){
+			System.out.println("From Human");
+
+	}
+
+}

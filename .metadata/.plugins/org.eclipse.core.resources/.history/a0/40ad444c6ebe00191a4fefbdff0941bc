@@ -1,0 +1,9 @@
+import Ocean.*;
+
+public class main {
+	public static void main(String[] args) {
+		fish fish1 = new fish();
+		System.out.println(fish1);
+	}
+
+}

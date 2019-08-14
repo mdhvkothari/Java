@@ -19,7 +19,7 @@ public class getter {
 		
 		Person person = new Person();
 		person.age =19;
-		
+		person.name ="Madhav";
 		int age = person.getAge();
 		System.out.println(age);
 

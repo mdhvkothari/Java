@@ -1,0 +1,9 @@
+
+public class Car {
+	public void machine(){
+		System.out.println("From Car");
+
+}
+
+
+}
