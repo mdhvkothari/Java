@@ -9,7 +9,9 @@
 <fullyQualifiedTypeName name="Info"/>
 <fullyQualifiedTypeName name="Human"/>
 <fullyQualifiedTypeName name="Plant"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Camera"/>
 <fullyQualifiedTypeName name="Machine"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
