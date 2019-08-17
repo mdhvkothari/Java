@@ -29,7 +29,7 @@ public class Main {
 		showList(list2);
 	
 	}
-	//we use ? beacuse we don't know which type to array list we have ? is called wildcard
+	//we use ? because we don't know which type to array list we have ? is called wildcard
 	// and instead of String value:list we use Object value:list
 	public static void showList(ArrayList<?> list){
 		for(Object value:list){

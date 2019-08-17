@@ -1,0 +1,39 @@
+//We can't create abstract method's object
+//if there is any abstract class in method then that method will also be abstract
+//abstract method can't be define it just declared.
+
+abstract class Color {
+	String color;
+
+	public void shape(String color) {
+		this.color = color;
+	}
+
+	abstract double area();
+
+	public String getColor() {
+		return color;
+	}
+}
+
+class Circle extends Color {
+	double radius;
+	public Circle(String color, double radius){
+		super(color);
+		this.radius = radius;
+		
+	}
+
+	double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	}
+
+}

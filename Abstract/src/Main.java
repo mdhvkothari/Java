@@ -1,0 +1,48 @@
+//We can't create abstract method's object
+//if there is any abstract class in method then that method will also be abstract
+//abstract method can't be define it just declared.
+
+abstract class Color {
+	String color;
+
+	public Color(String color) {
+		System.out.println("Color constructor");
+		this.color = color;
+	}
+
+	abstract double area();
+
+	public abstract String toString();
+
+	public String getColor() {
+		return color;
+	}
+}
+
+class Circle extends Color {
+	double radius;
+
+	public Circle(String color, double radius) {
+		super(color);
+		System.out.println("Construct Cirle");
+		this.radius = radius;
+	}
+
+	double area() {
+		return Math.PI * Math.pow(radius, 2);
+	}
+
+	public String toString() {
+		return "Color from abstact class " + super.color + " and area is:"
+				+ area();
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		Circle circle = new Circle("Red", 2.2);
+		System.out.println(circle.toString());
+	}
+
+}

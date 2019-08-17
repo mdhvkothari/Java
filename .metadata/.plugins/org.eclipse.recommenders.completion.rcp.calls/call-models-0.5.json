@@ -38,5 +38,10 @@
     "location": "D:\\java\\Uppercast and Downcast\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\Uppercast and Downcast\\src\u0027. Skipped."
+  },
+  "D:\\java\\Anoymous Class\\src": {
+    "location": "D:\\java\\Anoymous Class\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Anoymous Class\\src\u0027. Skipped."
   }
 }
