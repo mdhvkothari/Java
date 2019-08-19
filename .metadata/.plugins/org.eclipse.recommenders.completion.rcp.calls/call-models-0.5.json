@@ -53,5 +53,10 @@
     "location": "D:\\java\\ObjectCopying\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\ObjectCopying\\src\u0027. Skipped."
+  },
+  "D:\\java\\Override Private Method\\src": {
+    "location": "D:\\java\\Override Private Method\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Override Private Method\\src\u0027. Skipped."
   }
 }
