@@ -1,0 +1,15 @@
+class A{
+	int i,j;
+	public String toString(){
+		return i + " " +j;
+	}
+}
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	}
+
+}

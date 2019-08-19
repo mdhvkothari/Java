@@ -43,5 +43,15 @@
     "location": "D:\\java\\Anoymous Class\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\Anoymous Class\\src\u0027. Skipped."
+  },
+  "D:\\java\\initialize block\\src": {
+    "location": "D:\\java\\initialize block\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\initialize block\\src\u0027. Skipped."
+  },
+  "D:\\java\\ObjectCopying\\src": {
+    "location": "D:\\java\\ObjectCopying\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\ObjectCopying\\src\u0027. Skipped."
   }
 }
