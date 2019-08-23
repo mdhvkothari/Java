@@ -58,5 +58,10 @@
     "location": "D:\\java\\Override Private Method\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\Override Private Method\\src\u0027. Skipped."
+  },
+  "D:\\java\\Serilazation\\src": {
+    "location": "D:\\java\\Serilazation\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Serilazation\\src\u0027. Skipped."
   }
 }

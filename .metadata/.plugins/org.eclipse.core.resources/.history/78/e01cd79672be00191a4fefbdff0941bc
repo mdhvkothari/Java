@@ -1,9 +1,0 @@
-
-public class Car {
-
-	private int id =7;
-	
-	public void machine(){
-		System.out.println("From Car");
-	}
-}
