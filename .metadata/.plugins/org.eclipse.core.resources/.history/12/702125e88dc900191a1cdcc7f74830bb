@@ -1,0 +1,17 @@
+import java.util.AbstractCollection;
+import java.util.*;
+
+// It is used to implement an unmodifiable collection, for which one needs to only extend 
+ //this AbstractCollection Class and implement only the iterator and the size methods.
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		AbstractCollection<Object> abs = new ArryList<Object>();
+		
+
+	}
+
+}
