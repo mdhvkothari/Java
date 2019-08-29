@@ -1,0 +1,39 @@
+class First extends Thread{
+	//we use always run as a name to get output
+	public void run(){
+		for(int i=0;i<5;i++){
+			System.out.println("From first");
+		}
+		
+	}
+}
+
+class Second extends Thread{
+	public void run(){
+		for(int i=0;i<5;i++){
+			System.out.println("From Second");
+		}
+		
+	}
+}
+
+
+public class Main {
+	public static void main(String[] args) {
+		First obj1 = new First();
+		Second obj2 = new Second();
+		
+		//we have to first invoke thread
+		obj1.start();
+		try{
+			Thread.sleep(500);
+		}
+		catch(Exception e){
+			
+		}
+		obj2.start();
+		
+
+	}
+
+}
