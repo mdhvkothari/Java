@@ -63,5 +63,10 @@
     "location": "D:\\java\\Serilazation\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\Serilazation\\src\u0027. Skipped."
+  },
+  "D:\\java\\MultiThreading\\src": {
+    "location": "D:\\java\\MultiThreading\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\MultiThreading\\src\u0027. Skipped."
   }
 }

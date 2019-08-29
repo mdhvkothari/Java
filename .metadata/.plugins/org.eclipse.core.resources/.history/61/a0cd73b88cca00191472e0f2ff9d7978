@@ -29,11 +29,6 @@ public class Main {
 		Thread t1  = new Thread(obj1);
 		Thread t2 = new Thread(obj2);
 		
-		//we can change priority of thread
-		t1.setPriority(1);
-		//we can check the priority of thread
-		System.out.println("Priority of thread t1 is: " + t1.getPriority());
-		
 		//we can give a name to thread
 		//t1.setName("hi");
 		
