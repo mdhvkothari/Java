@@ -1,0 +1,44 @@
+class Counter{
+	int count;
+	//this will help us to synchronized the both thread not to clash with each other
+	public synchronized void increment(){
+		count++;
+	}
+}
+
+
+public class Main {
+	public static void main(String[] args)throws Exception{
+		 final Counter obj = new Counter();
+		
+		Thread t1 = new Thread(
+					new Runnable() {
+						
+						public void run() {
+							for(int i=0;i<100;i++){
+								obj.increment();
+							}
+						}
+					});
+		
+		Thread t2 = new Thread(
+				new Runnable() {
+					
+					@Override
+					public void run() {
+						for(int i=0;i<100;i++){
+							obj.increment();
+						}
+					}
+				});
+		
+		t1.start();
+		t1.join();
+		t2.start();
+		t2.join();
+		
+		System.out.println("Count: "+obj.count);
+
+	}
+
+}

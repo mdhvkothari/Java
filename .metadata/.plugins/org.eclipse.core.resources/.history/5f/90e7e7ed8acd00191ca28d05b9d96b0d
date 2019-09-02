@@ -1,0 +1,27 @@
+//Best example of inter thread communcation is producer consumer problem
+
+class Q{
+	int num;
+	public void setQ(int num){
+		this.num = num;
+		System.out.println("Set: "+num);
+	}
+	public void getQ(){
+		System.out.println("Get: "+num);
+	}
+}
+
+
+//thread one
+
+
+
+
+
+public class Main {
+	public static void main(String[] args) {
+
+
+	}
+
+}
