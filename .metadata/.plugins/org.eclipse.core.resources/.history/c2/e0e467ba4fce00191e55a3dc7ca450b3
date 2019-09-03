@@ -1,0 +1,22 @@
+class PC{
+	public synchronized void producer() throws Exception {
+		System.out.println("producer running thread");
+		wait();
+		System.out.println("Back to producer");
+	}
+	
+	public synchronized void consumer() throws Exception {
+		System.out.println("Consumer thread");
+		notify();
+	}
+}
+
+
+public class Main {
+	public static void main(String[] args) {
+		PC pc = new PC();
+		pc.producer();
+		pc.consumer();
+	}
+
+}

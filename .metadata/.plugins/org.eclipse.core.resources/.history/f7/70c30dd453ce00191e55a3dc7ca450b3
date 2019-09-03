@@ -1,0 +1,43 @@
+import java.util.LinkedList; 
+
+
+class PC {
+	
+	LinkedList<Integer> list = new LinkedList<Integer>();
+	int capacity =2;
+	int value=0;
+	public void producer() throws InterruptedException{
+		while(true){
+			if(list.size()==capacity){
+				wait();
+			}
+			System.out.println("Produce: "+value);
+			list.add(value++);
+			notify();
+			Thread.sleep(1000);
+		}
+		
+		
+	}
+	
+	public void consumer() throws Exception{
+		while(true){
+			if(list.size()==0){
+				wait();
+			}
+		int val = list.removeFirst();
+		System.out.println("Consume: "+val);
+		
+		}
+	}
+}
+
+
+
+public class Main {
+	public static void main(String[] args) {
+	
+
+	}
+
+}

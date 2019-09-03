@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Inter Thread Commucation&apos;" deleteContents="true" description="Delete resource &apos;Inter Thread Commucation&apos;" element1="/Inter Thread Commucation" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1567518995290"/>
+</session>

@@ -68,5 +68,20 @@
     "location": "D:\\java\\MultiThreading\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\MultiThreading\\src\u0027. Skipped."
+  },
+  "D:\\java\\Synchronized\\src": {
+    "location": "D:\\java\\Synchronized\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Synchronized\\src\u0027. Skipped."
+  },
+  "D:\\java\\Inter Thread Commucation\\src": {
+    "location": "D:\\java\\Inter Thread Commucation\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Inter Thread Commucation\\src\u0027. Skipped."
+  },
+  "D:\\java\\Yeild Thread\\src": {
+    "location": "D:\\java\\Yeild Thread\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Yeild Thread\\src\u0027. Skipped."
   }
 }
