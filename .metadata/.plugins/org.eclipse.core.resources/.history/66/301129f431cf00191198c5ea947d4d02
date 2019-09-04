@@ -1,0 +1,26 @@
+//Singleton are those class which have only one instance
+//In java singleton there is keyword so we have to follow three rules
+//1. Make object of class inside class
+//2. Make constructor private
+//3. make a static method to pass static object which made in step in 1
+
+class Singleton{
+	static Singleton obj = new Singleton();
+	private Singleton(){
+		
+	}
+	public static Singleton getContructor(){
+		return obj;
+	}
+}
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

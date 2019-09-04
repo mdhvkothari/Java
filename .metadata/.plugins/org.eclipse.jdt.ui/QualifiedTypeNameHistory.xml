@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="Camera"/>
 <fullyQualifiedTypeName name="Machine"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="Initalize"/>
 <fullyQualifiedTypeName name="Static"/>
@@ -26,11 +25,24 @@
 <fullyQualifiedTypeName name="First"/>
 <fullyQualifiedTypeName name="Second"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="Producer"/>
 <fullyQualifiedTypeName name="Consumer"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.io.InterruptedIOException"/>
 <fullyQualifiedTypeName name="thread"/>
+<fullyQualifiedTypeName name="java.lang.Package"/>
+<fullyQualifiedTypeName name="PC"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="DeamonTheread"/>
+<fullyQualifiedTypeName name="NokiaPhone"/>
+<fullyQualifiedTypeName name="SmartPhone"/>
+<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+<fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Singleton"/>
+<fullyQualifiedTypeName name="java.awt.image.SinglePixelPackedSampleModel"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 </qualifiedTypeNameHistroy>

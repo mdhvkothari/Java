@@ -83,5 +83,30 @@
     "location": "D:\\java\\Yeild Thread\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\java\\Yeild Thread\\src\u0027. Skipped."
+  },
+  "D:\\java\\Inter Thread Communication\\src": {
+    "location": "D:\\java\\Inter Thread Communication\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Inter Thread Communication\\src\u0027. Skipped."
+  },
+  "D:\\java\\Produce Consumer Problem\\src": {
+    "location": "D:\\java\\Produce Consumer Problem\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Produce Consumer Problem\\src\u0027. Skipped."
+  },
+  "D:\\java\\Deamon Thread\\src": {
+    "location": "D:\\java\\Deamon Thread\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Deamon Thread\\src\u0027. Skipped."
+  },
+  "D:\\java\\Annotation\\src": {
+    "location": "D:\\java\\Annotation\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Annotation\\src\u0027. Skipped."
+  },
+  "D:\\java\\Singleton Class\\src": {
+    "location": "D:\\java\\Singleton Class\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\java\\Singleton Class\\src\u0027. Skipped."
   }
 }

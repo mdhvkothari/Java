@@ -1,0 +1,16 @@
+
+import java.sql.*;
+
+public class Main {
+	public static void main(String[] args)throws Exception {
+		
+		String DataBaseName = "test";
+		String username="root";
+		String password ="";
+		Class.forName("com.mysql.jdbc.Driver");	
+		Connection con = DriverManager.getConnection(DataBaseName,username,password);
+		
+		
+	}
+
+}

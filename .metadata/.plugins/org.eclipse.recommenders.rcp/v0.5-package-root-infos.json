@@ -26,6 +26,19 @@
     "javaRuntime": true
   },
   {
+    "symbolicName": "com.mysql.jdbc",
+    "version": {
+      "major": 5,
+      "minor": 1,
+      "micro": 38,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dbbd7cd309ce167ec8367de4e41c63c2c8593cc5",
+    "jarFileModificationDate": "2019-09-04T22:37:07.869+05:30",
+    "location": "C:\\Users\\mdhvk\\Downloads\\Programs\\mysql-connector-java-5.1.38.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "jre",
     "version": {
       "major": 1,
