@@ -1,0 +1,45 @@
+
+import java.sql.*;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args)throws Exception {
+		try{
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter 1 for fetch and enter 2 to insert :");
+			int input = sc.nextInt();
+			String url ="jdbc:mysql://localhost:3306/test";
+			String username="root";
+			String password ="";
+			Class.forName("com.mysql.jdbc.Driver");	
+			Connection con = DriverManager.getConnection(url,username,password);
+			Statement st = con.createStatement();
+			if (input==1){
+				ResultSet rs = st.executeQuery("SELECT * FROM student");
+				while(rs.next()){
+					String name = rs.getString("Name");
+					int id = rs.getInt("id");
+					System.out.println(id+" "+name);
+
+				}
+			}
+			if(input==2){
+				System.out.println("Enter name:");
+				int id = sc.nextInt();
+				System.out.println("Id:");
+				String name = sc.nextLine();
+				int count = st.executeUpdate("INSERT INTO `student`(`Id`, `Name`) VALUES ('"+id+"','"+name+"')");
+				System.out.println(count+" Row effected");
+			}
+			
+			st.close();
+			con.close();
+			
+			
+		}
+		catch(Exception e){
+			
+		}
+	}
+
+}
